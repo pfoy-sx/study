@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="db.db">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <table id="3" parent="2" name="t_info"/>
+    <table id="4" parent="2" name="t_user"/>
+    <column id="5" parent="3" name="cardnum">
+      <DataType>INT(8)(0,-1)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="6" parent="3" name="cardpwd">
+      <Position>1</Position>
+      <DataType>VARCHAR(20)(0,-1)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="7" parent="3" name="user_id">
+      <Position>2</Position>
+      <DataType>INT(0,-1)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="8" parent="3" name="balance">
+      <Position>3</Position>
+      <DataType>INT(0,-1)|4</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>16000</DefaultExpression>
+    </column>
+    <column id="9" parent="3" name="status">
+      <Position>4</Position>
+      <DataType>INT(0,-1)|4</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <index id="10" parent="3" name="t_info_cardnum_uindex">
+      <ColNames>cardnum</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <column id="11" parent="4" name="id">
+      <DataType>INT(0,-1)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="12" parent="4" name="user">
+      <Position>1</Position>
+      <DataType>VARCHAR(20)(0,-1)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="13" parent="4" name="passwd">
+      <Position>2</Position>
+      <DataType>VARCHAR(40)(0,-1)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="14" parent="4">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

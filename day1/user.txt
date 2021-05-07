@@ -1,0 +1,3 @@
+user:Beam
+status:0
+passwd:123456
