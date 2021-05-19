@@ -1,0 +1,121 @@
+HTTP/1.1 200 OK
+Server: nginx/1.8.0
+Date: Thu, 27 Oct 2016 01:47:32 GMT
+Content-Type: text/html;charset=utf-8
+Content-Length: 5354
+Connection: keep-alive
+Set-Cookie: JSESSIONID=51C609ADC996190C89E91E9F7949DEAF; Path=/; HttpOnly
+Content-Language: en-US
+
+
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="学乎app,学乎,益策app,益策学乎,益策,学乎app下载,学乎安卓版,学乎ios版,学乎免费下载">
+  <meta name="description" content="学乎,益策旗下面向职场人士和企业的在线学习平台。学乎app为你提供在线学习平台,在线课堂,移动在线学习,在线教育,大咖分享,名师直播,语音直播,视频直播。查看益策学乎app介绍、益策学乎app评论、益策学乎app截图, 将学乎app免费安装到手机。">
+  <link rel="stylesheet" href="/assets/libs/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/libs/fullpage.js/dist/jquery.fullpage.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js" async></script>
+  <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js" async></script>
+  <![endif]-->
+  <title>学乎 - 为亿万职场人加油</title>
+</head>
+<body id="page-home" class="page">
+<header class="navbar navbar-fixed-top">
+  <div class="clearfix">
+    <a class="hidden-md-up scroll-link p-t-icon">
+      <img src="/assets/img/big/logo.png" alt="">
+    </a>
+    <i class="middle"></i>
+    <button type="button" class="navbar-toggler pull-xs-right hidden-md-up p-r-0" data-toggle="modal" data-target="#top-navbar">
+      <img src="/assets/img/phone/meun.png" alt=""></button>
+    <a class="icon-down pull-xs-right"><img src="/assets/img/phone/download.png" alt=""></a>
+  </div>
+  <div class="container">
+    <a class="navbar-brand hidden-sm-down scroll-link"><img src="/assets/img/big/logo.png" alt=""></a>
+    <div class="navbar-toggleable-sm pull-md-right" id="top-navbar" data-backdrop="false">
+      <button class="close close-down hide icon-close" data-dismiss="modal"><img src="/assets/img/icon/close.png" alt=""></button>
+      <ul class="nav navbar-nav s-hide">
+        <li class="nav-item"><a href="/" class="nav-link scroll-link">首页</a></li>
+        <li class="nav-item"><a  class="nav-link scroll-link version-link">版本更新记录</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div id="fullpage">
+  <div class="section active" id="section0">
+    <div class="section first-content section-box">
+      <div class="container download-wrap">
+        <a class="download-btn"></a>
+      </div>
+    </div>
+    <div class="down-modal hide modal" id="myModal" role="dialog" tabindex="-1"data-backdrop="false" >
+      <button class="close close-down" data-dismiss="modal" >X</button>
+      <div class="down-box clearfix">
+        <div class="left text-md-right p-r-1">
+          <img src="/assets/img/big/part6-img03.png" alt="">
+        </div>
+        <div class="left">
+          <h3 class="text-down text-as-center m-b-1">扫一扫立即下载</h3>
+          <p class="text-as-cente"><a href="https://itunes.apple.com/cn/app/id1114733646?mt=8" target="_blank"><img src="/assets/img/big/iphone-download.png" alt=""></a></p>
+          <p class="text-as-center"><a href="http://down.xuehu365.com/xuehu365.apk" target="_blank"><img src="/assets/img/big/andriod-download.png" alt=""></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section new-home section-box" id="section1">
+    <div class="container row sec-container">
+      <div class="col-md-5 pic pic-2">
+      </div>
+      <div class="col-md-7 font font-2">
+      </div>
+    </div>
+  </div>
+  <div class="section section-box study-group" id="section2">
+    <div class="container row sec-container">
+      <div class="col-md-5 font font-3 pos-r">
+      </div>
+      <div class="col-md-7 pic pic-3 pos-c">
+      </div>
+    </div>
+  </div>
+  <div class="section section-box pay-teacher" id="section3">
+    <div class="container row sec-container">
+      <div class="col-md-6 pic pic-4">
+      </div>
+      <div class="col-md-6 font font-4">
+      </div>
+    </div>
+  </div>
+  <div class="section section-box user-card">
+    <div class="container row sec-container">
+      <div class="col-md-5 font font-5 pos-r">
+      </div>
+      <div class="col-md-7 pic pic-5 pos-c">
+      </div>
+    </div>
+  </div>
+  <div class="section fp-auto-height" id="section-foot">
+    <footer>
+      <div class="footer-copyright">
+        粤B2-20050579号-5 益策（中国）学习管理机构 版权所有
+      </div>
+    </footer>
+  </div>
+</div>
+<div class="suspend"><span class="arr tips_ani"></span></div>
+<!-- Javascript -->
+<script src="/assets/js/jquery-1.11.1.min.js"></script>
+<script src="/assets/libs/tether/dist/js/tether.min.js"></script>
+<script src="/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/assets/js/application.js"></script>
+<script src="/assets/libs/fullpage.js/vendors/jquery.easings.min.js"></script>
+<script src="/assets/libs/fullpage.js/dist/jquery.fullpage.min.js"></script>
+<script src="/assets/js/index.js"></script>
+</body>
+</html>
