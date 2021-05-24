@@ -22,6 +22,8 @@ time.sleep(10)
 ssh.close()
 
 
+###
+
 # import paramiko
 # '''以下是paramiko模拟xftp传输部分'''
 # transport = paramiko.Transport(('192.168.0.242',22))
