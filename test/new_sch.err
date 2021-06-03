@@ -1,0 +1,4 @@
+1493807147.7054884 http://radiolibs.com/live/589d4ed02273b659ce4c3eb9.m3u8: Connection timed out
+1493807149.707553 [stream_segment,ssegment @ 0x2227f40] Failed to open segment list '/data/stream/tr_1696/live_1696.m3u8'
+1493807161.7136536 http://radiolibs.com/live/589d4ed02273b659ce4c3eb9.m3u8: Connection timed out
+1493807179.7223024 http://radiolibs.com/live/55801ddeb3ee794c623ff452.m3u8: Server returned 404 Not Found
